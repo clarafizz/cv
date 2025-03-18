@@ -1,0 +1,22 @@
+.cv-container {
+    width: 210mm;
+    min-height: 297mm;
+    background: #fff;
+    border: none;
+    margin: auto;
+}
+
+.profile-img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border: 0.5px solid #000;
+}
+
+li {
+    text-align: justify;
+}
+
+tr.details{
+    text-align: center;
+}

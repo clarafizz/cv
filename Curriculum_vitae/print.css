@@ -1,0 +1,38 @@
+@media print {
+
+    body {
+        font-family: Arial;
+        font-size: 12pt;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 150px;
+        object-fit: cover;
+        border: 0.5px solid #000;
+    }
+
+    .cv-container {
+            width: 210mm;
+            min-height: 297mm;
+            background: #fff;
+            border: none;
+            margin: auto;
+        }
+
+    li {
+            text-align: justify;
+        }
+
+    tr.details{
+            text-align: center;
+    }
+
+
+    
+} 
+
+@page {
+        size: A4 portrait; 
+        margin: 1in; 
+    }

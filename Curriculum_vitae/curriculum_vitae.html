@@ -4,30 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link href="print.css" media="print" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .cv-container {
-            width: 210mm;
-            min-height: 297mm;
-            background: #fff;
-            border: none;
-            margin: auto;
-        }
-        .profile-img {
-            width: 120px;
-            height: 150px;
-            object-fit: cover;
-            border: 0.5px solid #000;
-        }
-
-        li {
-            text-align: justify;
-        }
-        body {
-            font-family: Arial;
-            font-size: 12pt;
-        }
-    </style>
 </head>
 <body>
     <div class="cv-container">
@@ -49,7 +28,7 @@
         
         
         <table class="table table-bordered">
-            <tr><th colspan="2"><p class="my-2 fw-bold">PERSONAL INFORMATION</p></th><tr>
+            <tr><th colspan="2"><p class="fw-bold">PERSONAL INFORMATION</p></th><tr>
             <tr><td>Nationality</td><td>Filipino</td></tr>
             <tr><td>Date of Birth</td><td>May 28, 1980</td></tr>
             <tr><td>Marital Status</td><td>Married</td></tr>
@@ -62,7 +41,7 @@
 
 
             <thead><tr><th colspan="3"><p class="my-2">Graduate Studies:</p></th><tr></tr></thead>
-            <thead><tr><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
+            <thead><tr class="details"><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
             <tbody>
                 <tr><td>June 2018</td><td>Doctor in Business Administration</td><td>San Pablo Colleges</td></tr>
                 <tr><td>March 2005</td><td>Master in Business Administration</td><td>San Pablo Colleges</td></tr>
@@ -70,21 +49,21 @@
 
 
             <thead><tr><th colspan="3"><p class="my-2">Tertiary:</p></th><tr></tr></thead>
-            <thead><tr><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
+            <thead><tr class="details"><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
             <tbody>
                 <tr><td>April 2001</td><td>Bachelor of Science in Computer Science</td><td>ACTS Computer College Sta. Laguna</td></tr>
             </tbody>
 
 
             <thead><tr><th colspan="3"><p class="my-2">Secondary:</p></th><tr></tr></thead>
-            <thead><tr><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
+            <thead><tr class="details"><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
             <tbody>
                 <tr><td>April 1996</td><td>High School</td><td>Liliw National High School</td></tr>   
             </tbody>
             
 
             <thead><tr><th colspan="3"><p class="my-2">Elementary:</p></th><tr></tr></thead>
-            <thead><tr><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
+            <thead><tr class="details"><th>Month/Year Graduated</th><th>Degree</th><th>School</th></tr></thead>
             <tbody>
                 <tr><td>March 1992</td><td>Elementary</td><td>Taykin Elementary School</td></tr>
             </tbody>
@@ -94,7 +73,7 @@
         <table class="table table-bordered">
             <thead><tr><th colspan="3"><p class="my-2 fw-bold">EMPLOYMENT HISTORY</p></th><tr></tr></thead>
             
-            <thead><tr><th>Date</th><th>Position</th><th>Institution</th></tr></thead>
+            <thead><tr class="details"><th>Date</th><th>Position</th><th>Institution</th></tr></thead>
             <tbody>
                 <tr><td>June 2018 - Present</td><td>Part-time Faculty, Graduate School</td><td>San Pablo Colleges San Pablo City</td></tr>
                 <tr><td>June 2015 - Present</td><td>Head, Department of Business Management</td><td>ACTS Computer College Sta. Cruz, Laguna</td></tr>
@@ -105,7 +84,7 @@
 
         <p class="my-3 fw-bold">Research Related Seminars Attended (from most recent)</p>
         <table class="table table-bordered">
-            <thead><tr><th>Title of Seminar/Training Workshop</th><th>Inclusive Dates</th><th>Venue</th></tr></thead>
+            <thead><tr class="details"><th>Title of Seminar/Training Workshop</th><th>Inclusive Dates</th><th>Venue</th></tr></thead>
             <tbody>
                 <tr><td>Turnitin Instructors Training</td><td>January 11, 2024</td><td>San Pablo City</td></tr>
                 <tr><td>Data Privacy Act and Intellectual Property Rights</td><td>May 23, 2019</td><td>San Pablo City</td></tr>
@@ -118,7 +97,7 @@
         
         <p class="my-3 fw-bold">Research Related Conferences Attended (from most recent)</p>
         <table class="table table-bordered">
-            <thead><tr><th>Title of Research Conference</th><th>Inclusive Dates</th><th>Organizer</th><th>Venue</th></tr></thead>
+            <thead><tr class="details"><th>Title of Research Conference</th><th>Inclusive Dates</th><th>Organizer</th><th>Venue</th></tr></thead>
             <tbody>
                 <tr><td>9th International Conference on Management, Engineering, Science, Social Science and Humanities</td><td>August 2-3, 2024</td><td>Society for Research Development</td><td>Bangkok, Thailand</td></tr>
                 <tr><td>8th International Conference on Management, Engineering, Science, Social Science and Humanities</td><td>June 23-24, 2023</td><td>Society for Research Development</td><td>Manila, Philippines</td></tr>
