@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Evaluation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @media print {
+            * {
+                color: black;
+                background: white;
+                font-size: 12pt;
+
+            }
+
+            table,
+            th,
+            td {
+                border-collapse: collapse;
+                border: 1px solid black;
+                width: 100%;
+                text-align: right;
+            }
+        }
+
+        @page {
+            size: A4 landscape;
+            margin: 1in;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            display: block;
+            margin: auto;
+            padding: 0.5rem;
+        }
+
+        .largeTable {
+            font-size: medium;
+        }
+
+        .smallTable {
+            font-size: small;
+        }
+
+        table {
+            text-align: center;
+            margin: auto;
+
+            display: block;
+            padding: auto;
+        }
+
+        p {
+            size: 12in;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .TR {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .ARL {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .approvalList {
+            padding-top: 30px;
+            padding-bottom: 12px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="actscc-logo.png" alt="actscc-logo" class="actscc-logo">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <p class="text-center TR">ACTS COMPUTER COLLEGE</p>
+                <p class="text-center TR">Santa Cruz, Laguna</p>
+                <p class="text-center ARL"><strong>Students Evaluation/Reaction to Instructors</strong></p>
+                <p class="text-center ARL">Second Semester - AY 2023-2024</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+            </div>
+        </div>
+
+        <h6 class="my-4"><strong>Name of Instructor:</strong><br>PROF. ADELINE DAVAC</h6>
+
+        <div class="table-responsive">
+            <table class="table table-bordered largeTable">
+                <thead class="table-success">
+                    <tr>
+                        <th rowspan="2">Descriptive Rating</th>
+                        <th colspan="22">NUMBER OF RESPONDENTS PER STATEMENT</th>
+                    </tr>
+                    <tr>
+                        <td>I.1</td>
+                        <td>I.2</td>
+                        <td>II.3</td>
+                        <td>II.4</td>
+                        <td>II.5</td>
+                        <td>II.6</td>
+                        <td>II.7</td>
+                        <td>II.8</td>
+                        <td>II.9</td>
+                        <td>II.10</td>
+                        <td>III.11</td>
+                        <td>III.12</td>
+                        <td>III.13</td>
+                        <td>IV.14</td>
+                        <td>IV.15</td>
+                        <td>IV.16</td>
+                        <td>IV.17</td>
+                        <td>IV.18</td>
+                        <td>V.19</td>
+                        <td>V.20</td>
+                        <td>V.21</td>
+                        <td>VI</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Excellent</th>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>Very Good</th>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>Good</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>Fair</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>Very Poor</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>TOTAL NUMBER OF RESPONDENTS PER STATEMENT</th>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered largeTable">
+                <thead class="table-success">
+                    <tr>
+                        <th>Weighted Mean</th>
+                        <th colspan="22">CRITERION</th>
+                    </tr>
+                    <tr>
+                        <th>RATING</th>
+                        <td>I.1</td>
+                        <td>I.2</td>
+                        <td>II.3</td>
+                        <td>II.4</td>
+                        <td>II.5</td>
+                        <td>II.6</td>
+                        <td>II.7</td>
+                        <td>II.8</td>
+                        <td>II.9</td>
+                        <td>II.10</td>
+                        <td>III.11</td>
+                        <td>III.12</td>
+                        <td>III.13</td>
+                        <td>IV.14</td>
+                        <td>IV.15</td>
+                        <td>IV.16</td>
+                        <td>IV.17</td>
+                        <td>IV.18</td>
+                        <td>V.19</td>
+                        <td>V.20</td>
+                        <td>V.21</td>
+                        <td>VI</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>0.75</td>
+                        <td>1.00</td>
+                        <td>1.00</td>
+                        <td>0.75</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.75</td>
+                        <td>0.50</td>
+                        <td>0.75</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.50</td>
+                        <td>0.50</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.75</td>
+                        <td>1.00</td>
+                        <td>0.50</td>
+                        <td>1.00</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>0.50</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.50</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.50</td>
+                        <td>1.00</td>
+                        <td>0.50</td>
+                        <td>0.00</td>
+                        <td>2.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.50</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1.50</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.75</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <th>AVERAGE</th>
+                        <td>1.25</td>
+                        <td>1.00</td>
+                        <td>1.00</td>
+                        <td>1.25</td>
+                        <td>1.00</td>
+                        <td>2.50</td>
+                        <td>1.25</td>
+                        <td>1.50</td>
+                        <td>1.25</td>
+                        <td>1.00</td>
+                        <td>2.00</td>
+                        <td>1.50</td>
+                        <td>2.25</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1.25</td>
+                        <td>1.00</td>
+                        <td>1.50</td>
+                        <td>1.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <form>
+            <div class="input-group my-4 form-group-sm">
+                <span class="input-group-text bg-success text-white smallTable control-label"
+                    for="sm">COMMENTS/SUGGESTIONS</span>
+                <input class="form-control" type="text" id="sm">
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-lg-9 col-sm-9 col-md-9 table-responsive">
+                <table class="table table-bordered smallTable">
+                    <thead class="table-success">
+                        <tr>
+                            <th>RESULTS</th>
+                            <th>Mastery of the Subject</th>
+                            <th>Teaching Skills and Management</th>
+                            <th>Guidance Skills</th>
+                            <th>Laboratory Skills</th>
+                            <th>Evaluation Skills</th>
+                            <th>General Assessment</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <th>WEIGHTED MEAN</th>
+                            <td>1.13</td>
+                            <td>1.34</td>
+                            <td>1.92</td>
+                            <td>0.00</td>
+                            <td>1.25</td>
+                            <td>1.00</td>
+
+                        </tr>
+                        <tr>
+                            <th>DESCRIPTIVE RATING</th>
+                            <td>Excellent</td>
+                            <td>Excellent</td>
+                            <td>Very Good</td>
+                            <td>Not Applicable</td>
+                            <td>Excellent</td>
+                            <td>Excellent</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="col-lg-3 col-sm-3 col-md-3 table-responsive">
+                <table class="table table-bordered smallTable">
+                    <thead>
+                        <tr>
+                            <th>SCALE</th>
+                            <th>DESCRIPTIVE RATING</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1.00-1.50</td>
+                            <td>Excellent</td>
+
+                        </tr>
+                        <tr>
+                            <td>1.51-2.50</td>
+                            <td>Very Good</td>
+                        </tr>
+                        <tr>
+                            <td>2.51-3.50</td>
+                            <td>Good</td>
+                        </tr>
+                        <tr>
+                            <td>3.51-4.50</td>
+                            <td>Fair</td>
+                        </tr>
+                        <tr>
+                            <td>4.51-5.00</td>
+                            <td>Very Poor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row text-left">
+            <div class="col-lg-2 col-md-2 col-sm- approvalList">
+                <p><strong>Prepared by:</strong><br>&nbsp;<br>&nbsp;<br>MS. RICHELLE ANN S. MADERA<br><em>HR
+                        Assistant</em></p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 approvalList">
+                <p><strong>Acknowledged by:</strong><br>&nbsp;<br>&nbsp;<br>PROF. ADELINE DAVAC<br><em>Senior High
+                        School/College
+                        Instructor</em></p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 approvalList">
+                <p><strong>Noted by:</strong><br>&nbsp;<br>&nbsp;<br>PROF. RUBEN F. MACALINAO, MBA,
+                    MM<br><em>President/Director</em>
+                </p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 approvalList">
+                <p><strong>Noted by:</strong><br>&nbsp;<br>&nbsp;<br>DR. ERIC P. CASTILLO<br><em>SHS Principal</em></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 approvalList text-center">
+                <table>
+                    <tr>
+                        <th rowspan="2 px-3">
+                            <h4 class="text-end text-success">Overall Rating:</h4>
+                        </th>
+                        <td class="px-3"><strong>1.33</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="px-3" style="border-top: 1px solid;"><strong>Excellent</strong></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+</body>
+
+</html>
